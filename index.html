@@ -1,26 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<title> Login </title>
+    <meta charset="UTF-8">
+    <title>Homepage Sederhana</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <form onsubmit="return login()">
-    <input id="u" placeholder="Username" required>\
-    <input id="p" type="password" placeholder="Password" required>
-    <button>Login</button>
-  <form>
+    <header>
+        <h1>Website Saya</h1>
+        <p>Selamat datang di homepage sederhana</p>
+    </header>
 
-  <script>
-  function login(){
-    if(u.value=="admin" && p.value=="123"){
-      alert("Login berhasil");
-    } else {
-      alert("Login gagal");
-    }
-    return false;
-  }
-  </srript>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
 
-  </body>
-  </html>
-      
+    <section class="hero">
+        <h2>Halo 👋</h2>
+        <p>Ini adalah contoh homepage menggunakan HTML dan CSS.</p>
+        <button>Pelajari Lebih Lanjut</button>
+    </section>
+
+    <section class="content">
+        <h3>Tentang Website</h3>
+        <p>
+            Website ini dibuat untuk latihan dasar HTML dan CSS.
+            Desain dibuat sederhana dan mudah dipahami.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Website Saya</p>
+    </footer>
+
+</body>
+</html>
